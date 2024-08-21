@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div class="logo">logo</div>
+            <div class="navlinks">
+                <ul>
+                    <li>
+                        <a href="./index.html">HOME</a>
+                        <a href="">PROJECT</a>
+                        <a href="">ABOUT</a>
+                        <a href="">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar">
+                <span onclick=hidesidebar() class="closebtn"><svg xmlns="http://www.w3.org/2000/svg" height="36px"
+                        viewBox="0 -960 960 960" width="36" fill="#5f6368">
+                        <path
+                            d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" />
+                    </svg></span>
+                <ul>
+                    <li>
+                        <a href="./index.html ">HOME</a>
+                        <a href="">PROJECT</a>
+                        <a href="">ABOUT</a>
+                        <a href="">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <span onclick=showsidebar() class="menu-btn"><svg xmlns="http://www.w3.org/2000/svg" height="36px"
+                    viewBox="0 -960 960 960" width="36px" fill="#5f6368">
+                    <path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z" />
+                </svg></span>
+        </nav>
+        <div class="heading">
+            <a class="backbtn" href="./index.html"><img src="./images/back.png" alt=""></a>
+            <h1>Projects</h1>
+        </div>
+        <div class="hero">
+            <div class="projects">
+                <div class="pro-nav">
+                    <button onclick=showWebsite() id="togglebtn1" class="websites">websites</button>
+                    <button onclick=showMobileApps() id="togglebtn2" class="androidapps">mobile apps</button>
+                </div>
+                <div class="project-cards">
+                    <div class="cards" id="websites">
+                        <div class="card">
+                            <div class="image-div">
+                                <img src="./images/web1.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h2>the golden heights</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eaque labore vitae,
+                                    aperiam recusandae voluptatibus?</p>
+                                <div class="links">
+                                    <a href="#">View live Project</a>
+                                    <a href=""><img src="./images/github.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-div">
+                                <img src="./images/web2.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h2>the mojo dom</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eaque labore vitae,
+                                    aperiam recusandae voluptatibus?</p>
+                                <div class="links">
+                                    <a href="#">View live Project</a>
+                                    <a href=""><img src="./images/github.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-div">
+                                <img src="./images/web3.jpg" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h2>the ai assistant</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eaque labore vitae,
+                                    aperiam recusandae voluptatibus?</p>
+                                <div class="links">
+                                    <a href="#">View live Project</a>
+                                    <a href=""><img src="./images/github.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+              
+                    <div class="cards" id="mobile-apps">
+                        <div class="card">
+                            <div class="image-div">
+                                <img src="./images/project 1.png" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h2>the golden heights</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eaque labore vitae,
+                                    aperiam recusandae voluptatibus?</p>
+                                <div class="links">
+                                    <a href="#">View live Project</a>
+                                    <a href=""><img src="./images/github.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-div">
+                                <img src="./images/project 2.png" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h2>the mojo dom</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eaque labore vitae,
+                                    aperiam recusandae voluptatibus?</p>
+                                <div class="links">
+                                    <a href="#">View live Project</a>
+                                    <a href=""><img src="./images/github.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="image-div">
+                                <img src="./images/project 3.png" alt="" />
+                            </div>
+                            <div class="card-content">
+                                <h2>the ai assistant</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia eaque labore vitae,
+                                    aperiam recusandae voluptatibus?</p>
+                                <div class="links">
+                                    <a href="#">View live Project</a>
+                                    <a href=""><img src="./images/github.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

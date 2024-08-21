@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <div class="hero" id="hero">
+      <nav>
+        <div class="logo">logo</div>
+        <div class="navlinks">
+          <ul>
+            <li>
+              <a href="#hero">HOME</a>
+              <a href="#project-section">PROJECT</a>
+              <a href="#infomation-section">ABOUT</a>
+              <a href="#contact-banner">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar">
+          <span onclick=hidesidebar() class="closebtn"><svg xmlns="http://www.w3.org/2000/svg" height="36px"
+              viewBox="0 -960 960 960" width="36" fill="#5f6368">
+              <path
+                d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" />
+            </svg></span>
+          <ul>
+            <li>
+              <a href="#hero">HOME</a>
+              <a href="#project-section">PROJECT</a>
+              <a href="#infomation-section">ABOUT</a>
+              <a href="#contact-banner">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <span onclick=showsidebar() class="menu-btn"><svg xmlns="http://www.w3.org/2000/svg" height="36px"
+            viewBox="0 -960 960 960" width="36px" fill="#5f6368">
+            <path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z" />
+          </svg></span>
+      </nav>
+      <div class="main-banner">
+        <div class="image">
+          <img src="./images/front-view-smiley-man-with-crossed-arms-copy-space.png" alt="">
+        </div>
+        <div class="banner-contant">
+          <h2>Hello Im Sheikh Sameer</h2>
+          <h1>Website Developer</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            consectetur ipsum rerum earum eos unde quaerat tempora deserunt
+            animi laborum.
+          </p>
+          <button>ABOUT ME</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="infomation-section" id="infomation-section">
+      <div class="cards">
+        <div class="card">
+          <img src="./images/ux-design.png" width="70px" height="70px" alt="" />
+          <h1>UI Design</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <a href="">Know More</a>
+        </div>
+        <div class="card">
+          <img src="./images/notes.png" width="70px" height="70px" alt="" />
+          <h1>Product Design</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <a href="">Know More</a>
+        </div>
+        <div class="card">
+          <img src="./images/design-tool.png" width="70px" height="70px" alt="" />
+          <h1>Branding</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          <a href="">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section2">
+      <div class="content">
+        <div class="years">
+          <h1>12</h1>
+          <h2>Years Experience</h2>
+        </div>
+        <div class="total">
+          <div class="box">
+            <h1>60+</h1>
+            <p>clients</p>
+          </div>
+          <div class="box">
+            <h1>08</h1>
+            <p>Years Experience</p>
+          </div>
+          <div class="box">
+            <h1>122+</h1>
+            <p>Completed Projects</p>
+          </div>
+          <div class="box">
+            <h1>10</h1>
+            <p>Achivements</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-section" id="project-section">
+      <div class="project-info">
+        <div class="heading">
+          <h1>FEATURED PROJECTS</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        </div>
+        <a href="./projects.html" class="view-all-btn">VIEW ALL</a>
+      </div>
+      <div class="projects">
+        <div class="project-cards">
+          <div class="project-card">
+            <div class="image-div">
+              <img src="./images/project 1.png" alt="" />
+            </div>
+            <h1>the golden heights</h1>
+            <h2>know more</h2>
+          </div>
+          <div class="project-card">
+            <div class="image-div">
+              <img src="./images/project 2.png" alt="" />
+            </div>
+            <h1>the mojo dom</h1>
+            <h2>know more</h2>
+          </div>
+          <div class="project-card">
+            <div class="image-div">
+              <img src="./images/project 4.png" alt="" />
+            </div>
+            <h1>the gaming corection</h1>
+            <h2>know more</h2>
+          </div>
+          <div class="project-card">
+            <div class="image-div">
+              <img src="./images/project 3.png" alt="" />
+            </div>
+            <h1>the ai assistant</h1>
+            <h2>know more</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="another-background">
+      <div class="contact-banner" id="contact-banner">
+        <div class="context">
+          <h1>let's work together on your next project</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            perferendis.
+          </p>
+        </div>
+        <button class="contact-btn">Contact</button>
+      </div>
+    </div>
+
+    <div class="bottom-nav">
+      <div class="bottom-navlinks">
+        <ul>
+          <li>
+            <a href="">HOME</a>
+            <a href="">PROJECT</a>
+            <a href="">ABOUT</a>
+            <a href="">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="logo">logo</div>
+      <div class="social-icons">
+        <img src="./images/facebook.png" alt="" />
+        <img src="./images/twitter.png" alt="" />
+        <img src="./images/youtube.png" alt="" />
+      </div>
+      <div class="credit" <img src="./images/heart.png" alt="" />
+      <p>Created by Sameer</p>
+    </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
