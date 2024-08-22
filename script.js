@@ -53,6 +53,18 @@ function showMobileApps(){
 }   
 
 
+const contactBtn = document.querySelector(".contact-btn");
 
+// contactBtn.addEventListener('click', function () {
+    //     console.log("hello");
+    // });
+    
+    
+    function handleContactButton () {
+    const contactForm = document.querySelector(".contact-form");
+    const bottomNav = document.querySelector(".bottom-nav")
+    bottomNav.style.height="900px"
+    contactForm.style.display='block'
+}
 
      

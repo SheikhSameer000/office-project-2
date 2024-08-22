@@ -380,6 +380,66 @@ nav > .logo {
   text-transform: uppercase;
   margin: 45px 140px;
 }
+.contact-form{
+  width: 62%;
+  height: 70vh;
+  background-color: #1e1e1e;
+  position: absolute;
+  top: 180%;
+  left: 49.4%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.contact-form-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #9f101a;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
 
 .bottom-navlinks {
   width: 100%;
