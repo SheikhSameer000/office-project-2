@@ -15,6 +15,8 @@
 </head>
 
 <body>
+  <div class="backtotopbtn"><img src="./images/up-arrow.png" alt=""></div>
+
   <main>
     <div class="hero" id="hero">
       <nav>
@@ -53,7 +55,7 @@
         <div class="image">
           <img src="./images/front-view-smiley-man-with-crossed-arms-copy-space.png" alt="">
         </div>
-        <div class="banner-contant">
+        <div class="banner-contant" id="banner-contant">
           <h2>Hello Im Sheikh Sameer</h2>
           <h1>Website Developer</h1>
           <p>
@@ -68,19 +70,20 @@
 
     <div class="infomation-section" id="infomation-section">
       <div class="cards">
-        <div class="card">
+        <div class="card"  id="card-1">
+
           <img src="./images/ux-design.png" width="70px" height="70px" alt="" />
           <h1>UI Design</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
           <a href="">Know More</a>
         </div>
-        <div class="card">
+        <div class="card" id="card-2">
           <img src="./images/notes.png" width="70px" height="70px" alt="" />
           <h1>Product Design</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
           <a href="">Know More</a>
         </div>
-        <div class="card">
+        <div class="card" id="card-3">
           <img src="./images/design-tool.png" width="70px" height="70px" alt="" />
           <h1>Branding</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
@@ -92,24 +95,24 @@
     <div class="section2">
       <div class="content">
         <div class="years">
-          <h1>12</h1>
+          <h1 id="yearsCount">0</h1>
           <h2>Years Experience</h2>
         </div>
         <div class="total">
           <div class="box">
-            <h1>60+</h1>
+            <h1 id="clientsCount">0</h1>
             <p>clients</p>
           </div>
           <div class="box">
-            <h1>08</h1>
-            <p>Years Experience</p>
+            <h1 id="TechnologiesCount">0</h1>
+            <p>Technologies</p>
           </div>
           <div class="box">
-            <h1>122+</h1>
+            <h1 id="CompletedProjectsCount">0</h1>
             <p>Completed Projects</p>
           </div>
           <div class="box">
-            <h1>10</h1>
+            <h1 id="AchivementsCount">0</h1>
             <p>Achivements</p>
           </div>
         </div>
@@ -126,28 +129,30 @@
       </div>
       <div class="projects">
         <div class="project-cards">
-          <div class="project-card">
+          <div class="project-card"  id="project-card-1">
+
             <div class="image-div">
               <img src="./images/project 1.png" alt="" />
             </div>
             <h1>the golden heights</h1>
             <h2>know more</h2>
           </div>
-          <div class="project-card">
+          <div class="project-card"   id="project-card-2">
+
             <div class="image-div">
               <img src="./images/project 2.png" alt="" />
             </div>
             <h1>the mojo dom</h1>
             <h2>know more</h2>
           </div>
-          <div class="project-card">
+          <div class="project-card" id="project-card-3">
             <div class="image-div">
               <img src="./images/project 4.png" alt="" />
             </div>
             <h1>the gaming corection</h1>
             <h2>know more</h2>
           </div>
-          <div class="project-card">
+          <div class="project-card" id="project-card-4">
             <div class="image-div">
               <img src="./images/project 3.png" alt="" />
             </div>
@@ -218,8 +223,12 @@
       <div class="credit">  <img src="./images/heart.png" alt="" >
       <p>Created by Sameer</p>
     </div>
-    </div>
+
+    </div>  
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./gsap.js"></script>
   <script src="./script.js"></script>
 
 </body>
